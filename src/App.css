@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+:root{
+  --primary-app-color: #202020;
+  --secondary-app-color: #0082c6;
+  --standout-color: #f1d30c;
+}
+
+
+a{
+  text-decoration: none!important;
+}
+
+.App {
+  background: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Hero-Section */
+
+.herosection{
+  background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+  clip-path: polygon(0 0, 21% 0, 84% 0, 100% 0, 100% 99%, 79% 96%, 19% 96%, 0 100%);
+}
+
+.nav-items{
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Ubuntu';
+}
+
+.brand-name{
+  font-family: 'Ubuntu';
+  font-size: 1.7rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.px-10{
+  padding-inline: 90px;
+}
+
+.herosection-2{
+  padding-top: 60px;
+}
+
+.Im-text-section{
+  padding-top: 52px;
+  text-align: center;
+}
+
+.Im-text{
+  font-family: 'Ubuntu';
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.name-Im-text{
+  color: var(--standout-color);
+  font-size: 28px;
+}
+
+.Im-text-subheading{
+  font-family: 'Ubuntu';
+  color: #fff;
+  font-size: 1.35rem;
+}
+
+.Im-text-enthusiastic{
+  font-family: 'Ubuntu';
+  color: #fff;
+  font-size: 2rem;
+}
+
+.btn-hire-me{
+  font-size: 1.3rem;
+  font-family: 'Ubuntu';
+  color: #fff;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+}
+
+.btn-hire-me:hover{
+  transform: translateY(-5px);
+  background-color: var(--standout-color);
+  color: #1c1c1c;
+}
+
+.btn-resume{
+  font-size: 1.3rem;
+  font-family: 'Ubuntu';
+  color: #fff;
+  background: red;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-resume:hover{
+  transform: translateY(-5px);
+}
+
+@keyframes Anim{
+  0% { 
+    transform: scale(1); 
+  }
+  50% { 
+    transform: scale(1.1); 
+  }
+  100% { 
+    transform: scale(1.1); 
+  }
+}
+
+.custom-img{
+  width: 280px;
+  border-radius: 50%;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+  border: 1px solid #fff;
+}
+
+/* About-Me-Section */
+
+.about-me-text{
+  font-family: 'Ubuntu';
+  font-weight: 550;
+  font-size: 2.5rem;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.dark-text{
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: 550;
+  font-size: 2.5rem;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.introduce-text{
+  font-family: 'Ubuntu';
+  font-weight: 550;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.aboutme-inside{
+  width: 70%;
+  margin-inline: auto;
+}
+
+.some-text-about-me{
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-size: 1.03rem;
+  text-align: justify;
+  letter-spacing: 0.55px;
+  padding-block: 10px;
+}
+
+.few-highlights{
+  font-family: 'Ubuntu';
+  padding-block: 12px;
+}
+
+.few-text{
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.few-list{
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+/* RESUME-Section */
+
+.resume-options-items{
+  width: 100%;
+  transition: all 0.1s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.resume-options-items:hover{
+  background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+  color: #fff;
+  width: 100%;
+  border-radius: 1px;
+}
+
+.icons-span{
+  margin-block: 24px;
+  margin-inline: 24px;
+  color: #fff;
+}
+
+.selected{
+  background: linear-gradient(-45deg, var(--primary-app-color), var(--secondary-app-color));
+  color: #fff;
+  width: 100%;
+  border-radius: 1px;
+}
+
+.bg-new{
+  background: linear-gradient(-45deg, var(--primary-app-color), var(--secondary-app-color));
+  color: #fff;
+  width: 100%;
+}
+
+.resume-outer-section{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background: linear-gradient(var(--secondary-app-color), var(--primary-app-color));
+  color: #fff;
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+}
+
+.resume-new-section{
+  margin-top: 42px;
+  background: #fff;
+  box-shadow: 10px 10px 31px 2px #1c1c1c;
+}
+
+
+/* Contact Me Part */
+
+.contact-me-part{
+  color: #fff;
+}
+
+.relative-bg{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+  height: auto;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+
+.contact-inner-part{
+  padding-block: 70px;
+}
+
+.px-9{
+  padding-inline: 90px;
+}
+
+.flex-rows{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-option-mobile{
+  display: none;
+}
+
+/* The Mobile View Styling*/
+
+@media all and (max-width: 786px) { 
+
+  .navbar-option-mobile{
+    width: 100vw;
+    height: 45px;
+    position: fixed;
+    display: block;
+    z-index: 44;
+  }
+
+  .flex-rows{
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+  } 
+
+  .navbar-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    transform: translateX(-700px);
+  }
+
+
+  .transition-all{
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-fixed-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    /* transform: translateX(-700px); */
+  }
+
+  .px-9{
+    padding-inline: 0px;
+  }
+
+  .px-10{
+    padding-inline: 10px;
+  }
+
+  .nav-items{
+    padding-block: 20px;
+  }
+
+  .brand-name{
+    font-size: 1.1rem;
+    padding-inline: 22px;
+    margin-top: 6px;
+  }
+
+  .bars{
+    height: 4px;
+    width: 40px;
+    background: #fff;
+    float: right;
+    z-index: 33;
+    transform: translateY(30px);
+  }
+
+  .bars::before{
+    display: block;
+    position: relative;
+    top: 9px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background: #fff;
+  }
+
+  .bars::after{
+    display: block;
+    position: relative;
+    bottom: 12px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background: #fff;
+  }
+
+  .Im-text{
+    font-size: 1.2rem;
+  }
+
+  .name-Im-text{
+    font-size: 22px;
+    color: lime;
+  }
+
+  .Im-text-enthusiastic{
+    font-size: 1.7rem;
+  }
+
+  .Im-text-subheading{
+    font-size: 1.1rem;
+  }
+
+  .btn-hire-me{
+    font-size: 1rem;
+    padding: 5px 8px;
+    margin-block: 24px;
+    border-radius: 5px;
+    border: 1.5px solid white;
+  }
+
+  .btn-resume{
+    font-size: 1rem;
+    padding: 5px 9px;
+    margin-block: 24px;
+    border-radius: 5px;
+    border: 1.5px solid white;
+  }
+
+  .custom-img{
+    border: none;
+  }
+
+  .about-me-text{
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .introduce-text{
+    font-size: 1rem;
+  }
+
+  .aboutme-inside{
+    width: 90%;
+  }
+
+  .some-text-about-me{
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .lottie-1{
+    width: 500px;
+  }
+
+  .few-text{
+    font-size: 1.4rem;
+    letter-spacing: normal;
+  }
+
+  .university-name{
+    font-size: 1rem;
+  }
+
+  .university-degree{
+    font-size: 0.9rem;
+  }
+
+  .resume-new-section{
+    width: 100% !important;
+  }
+
+  /* .relative-bg{
+    padding: 0px 0px;
+    height: auto;
+  } */
+
+}

@@ -1,0 +1,27 @@
+.testimonial-card{
+    border-radius: 50px 20px 50px 0px;
+    padding: 25px;
+}
+
+.description{
+    color: rgb(50, 49, 49);
+    font-family: 'Noto Sans Bengali';
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 5px;
+}
+
+.name{
+    font-weight: 700;
+    font-family: 'Noto Sans Bengali';
+    font-size: 1.1rem;
+    color: rgb(75, 72, 72);
+}
+
+.designation{
+    font-weight: 500;
+    font-family: 'Noto Sans Bengali';
+    font-size: 1rem;
+    color: #000000;
+}

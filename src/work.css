@@ -1,0 +1,23 @@
+.company-name{
+    color: chocolate;
+    font-family: 'Noto Sans Bengali';
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.position{
+    color: #1c1c1c;
+    font-family: 'Noto Sans Bengali';
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px 5px;
+}
+
+.description-position{
+    color: #282727;
+    font-family: 'Noto Sans Bengali';
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 5px 5px;
+}

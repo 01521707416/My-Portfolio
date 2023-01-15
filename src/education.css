@@ -1,0 +1,22 @@
+.university-name{
+    font-family: 'Noto Sans Bengali';
+    font-weight: 520;
+    color: chocolate;
+    font-size: 1.3rem;
+}
+
+.university-degree{
+    font-family: 'Noto Sans Bengali';
+    font-weight: 500;
+    color: #1c1c1c;
+    font-size: 0.97rem;
+}
+
+.passing-year{
+    font-family: 'Monospace';
+    letter-spacing: 0.8px;
+    font-size: 1rem;
+    background: linear-gradient(-45deg, var(--primary-app-color), var(--secondary-app-color));
+    padding: 10px 10px;
+    border-radius: 20px;
+}

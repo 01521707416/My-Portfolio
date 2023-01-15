@@ -1,0 +1,29 @@
+.contact-me-card{
+    background: #1c1c1c;
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px #fff;
+    margin-inline: auto;
+    font-family: 'Noto Sans Bengali';
+}
+
+.get-in-touch{
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.input-groups{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: 'Noto Sans Bengali';
+}
+
+.card-contact-right{
+    background: rgb(0, 7, 63);
+    box-shadow: 10px 3px 33px 4px #fff;
+    border-radius: 20px;
+    /* width: %; */
+    padding: 24px;
+}

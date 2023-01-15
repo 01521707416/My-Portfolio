@@ -1,0 +1,20 @@
+.progress-some{
+    background: linear-gradient(#FFCDB2, rgb(141, 92, 220));
+    height: 18px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.progress-new{
+    background: linear-gradient(rgb(235, 147, 23), #063070);
+    height: 18px;
+    border-radius: 5px;
+}
+
+.language{
+    font-family: 'Lucida Console';
+    color: darkolivegreen;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
